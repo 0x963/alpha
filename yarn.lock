@@ -1082,20 +1082,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qr-generator@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "qr-generator@workspace:."
-  dependencies:
-    "@types/node": 18.11.7
-    "@types/react": 18.0.24
-    next: ^13.0.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    sass: ^1.55.0
-    typescript: 4.8.4
-  languageName: unknown
-  linkType: soft
-
 "react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
@@ -1388,6 +1374,20 @@ __metadata:
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
   languageName: node
   linkType: hard
+
+"visual-code-generator@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "visual-code-generator@workspace:."
+  dependencies:
+    "@types/node": 18.11.7
+    "@types/react": 18.0.24
+    next: ^13.0.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    sass: ^1.55.0
+    typescript: 4.8.4
+  languageName: unknown
+  linkType: soft
 
 "which@npm:^2.0.2":
   version: 2.0.2
