@@ -56,31 +56,31 @@ export default function App() {
 
 				<div id="qrcode-container">
 					<hr />
-					{url ? (
+					{url && (
 						<>
 							<h4>Canvas</h4>
 							<QRCodeCanvas url={url} />
 						</>
-					) : null}
-					{url && options ? (
+					)}
+					{url && options && (
 						<>
 							<h4>Canvas with some styles</h4>
 							<QRCodeCanvas url={url} options={options} />
 						</>
-					) : null}
+					)}
 					<hr />
-					{url ? (
+					{url && (
 						<>
 							<h4>Image</h4>
 							<QRCodeImage url={url} />
 						</>
-					) : null}
-					{url && optionsForImageType ? (
+					)}
+					{url && optionsForImageType && (
 						<>
 							<h4>Image with some styles</h4>
 							<QRCodeImage url={url} options={optionsForImageType} />
 						</>
-					) : null}
+					)}
 				</div>
 			</div>
 		</div>
